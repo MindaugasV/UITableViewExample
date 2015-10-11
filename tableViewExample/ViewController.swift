@@ -4,7 +4,9 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        let tableView = UITableView(frame: view.bounds);
+        view.addSubview(tableView);
     }
 }
 
