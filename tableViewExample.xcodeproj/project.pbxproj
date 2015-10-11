@@ -13,6 +13,7 @@
 		A16ECB711BCA9EB500BB13E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A16ECB701BCA9EB500BB13E7 /* Assets.xcassets */; };
 		A16ECB741BCA9EB500BB13E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A16ECB721BCA9EB500BB13E7 /* LaunchScreen.storyboard */; };
 		A16ECB7F1BCA9EB600BB13E7 /* tableViewExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16ECB7E1BCA9EB600BB13E7 /* tableViewExampleTests.swift */; };
+		A16ECB8A1BCAA40D00BB13E7 /* StaticTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16ECB891BCAA40D00BB13E7 /* StaticTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		A16ECB7A1BCA9EB600BB13E7 /* tableViewExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tableViewExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A16ECB7E1BCA9EB600BB13E7 /* tableViewExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tableViewExampleTests.swift; sourceTree = "<group>"; };
 		A16ECB801BCA9EB600BB13E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A16ECB891BCAA40D00BB13E7 /* StaticTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StaticTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				A16ECB691BCA9EB500BB13E7 /* AppDelegate.swift */,
 				A16ECB6B1BCA9EB500BB13E7 /* ViewController.swift */,
+				A16ECB891BCAA40D00BB13E7 /* StaticTableViewController.swift */,
 				A16ECB6D1BCA9EB500BB13E7 /* Main.storyboard */,
 				A16ECB701BCA9EB500BB13E7 /* Assets.xcassets */,
 				A16ECB721BCA9EB500BB13E7 /* LaunchScreen.storyboard */,
@@ -197,6 +200,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A16ECB6C1BCA9EB500BB13E7 /* ViewController.swift in Sources */,
+				A16ECB8A1BCAA40D00BB13E7 /* StaticTableViewController.swift in Sources */,
 				A16ECB6A1BCA9EB500BB13E7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
